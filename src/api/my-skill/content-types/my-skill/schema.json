@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "my_skills",
+  "info": {
+    "singularName": "my-skill",
+    "pluralName": "my-skills",
+    "displayName": "My Skills",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "percentage": {
+      "required": true,
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_mes",
+  "info": {
+    "singularName": "about-me",
+    "pluralName": "about-mes",
+    "displayName": "About Me",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "profilePhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cv": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "birthday": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

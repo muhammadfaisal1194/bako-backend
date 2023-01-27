@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "creative",
+        "design",
+        "branding",
+        "art"
+      ],
+      "required": true
+    },
+    "completedDate": {
+      "type": "date",
+      "required": true,
+      "default": "2023-01-06"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "overview": {
+      "type": "text",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "clientName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
