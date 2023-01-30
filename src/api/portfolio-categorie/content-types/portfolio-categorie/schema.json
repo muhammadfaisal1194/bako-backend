@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "my_skills",
+  "collectionName": "portfolio_categories",
   "info": {
-    "singularName": "my-skill",
-    "pluralName": "my-skills",
-    "displayName": "My Skills",
-    "description": ""
+    "singularName": "portfolio-categorie",
+    "pluralName": "portfolio-categories",
+    "displayName": "Portfolio Categories"
   },
   "options": {
     "draftAndPublish": true

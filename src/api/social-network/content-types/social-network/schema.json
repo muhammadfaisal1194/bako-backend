@@ -4,7 +4,8 @@
   "info": {
     "singularName": "social-network",
     "pluralName": "social-networks",
-    "displayName": "Social Network"
+    "displayName": "Social Network",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,22 +15,26 @@
     "Name": {
       "type": "enumeration",
       "enum": [
-        "Linkedin",
+        "Llinkedin",
         "Github",
-        "Gitlab",
+        "Skype",
+        "Dribbble",
         "Behance",
-        "Dribbble"
+        "Spotify",
+        "Dropbox"
       ],
       "required": true
     },
     "icon": {
       "type": "enumeration",
       "enum": [
-        "FaDribbble",
-        "FaGithub",
-        "FaLinkedin",
-        "FaBehance",
-        "FaGitlab"
+        "icon-social-linkedin",
+        "icon-social-github",
+        "icon-social-skype",
+        "icon-social-dribbble",
+        "icon-social-behance",
+        "icon-social-spotify",
+        "icon-social-dropbox"
       ],
       "required": true
     },
